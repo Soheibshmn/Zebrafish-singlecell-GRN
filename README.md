@@ -1,9 +1,9 @@
-#Uncovering Developmental Trajectories in Zebrafish Embryogenesis using scRNA-seq
+Uncovering Developmental Trajectories in Zebrafish Embryogenesis using scRNA-seq
 This repository contains the Python code for a scientific report on analyzing single-cell RNA sequencing (scRNA-seq) data from zebrafish embryos. The primary goal of this project is to model the developmental trajectory of notochord cells, infer the underlying gene regulatory networks (GRNs), and identify key transcription factors (TFs) driving cell fate decisions during embryogenesis.
 
 The pipeline leverages a combination of standard bioinformatics tools, machine learning models (Variational Autoencoders and Graph Neural Networks), and advanced trajectory analysis techniques to provide a comprehensive view of cellular development.
 
-#Table of Contents
+Table of Contents
 Methodology (https://www.google.com/search?q=%23-methodology)
 
 Key Features (https://www.google.com/search?q=%23-key-features)
