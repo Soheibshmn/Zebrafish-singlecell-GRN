@@ -1,8 +1,8 @@
 Uncovering Developmental Trajectories in Zebrafish Embryogenesis using scRNA-seq
 This repository contains the Python code for a scientific report on analyzing single-cell RNA sequencing (scRNA-seq) data from zebrafish embryos. The primary goal of this project is to model the developmental trajectory of notochord cells, infer the underlying gene regulatory networks (GRNs), and identify key transcription factors (TFs) driving cell fate decisions during embryogenesis.
 
-The pipeline leverages a combination of standard bioinformatics tools, machine learning models (Variational Autoencoders and Graph Neural Networks), and advanced trajectory analysis techniques to provide a comprehensive view of cellular development.
-
+The pipeline leverages a combination of standard bioinformatics tools, machine learning models (Variational Autoencoders and Graph Neural Networks), and advanced trajectory analysis techniques to provide a comprehensive view of cellular development. 
+In the zip, report and all of the results and plots are available
 Table of Contents
 Methodology (https://www.google.com/search?q=%23-methodology)
 
@@ -51,9 +51,27 @@ Advanced Dynamics: Incorporates RNA velocity and KPZ equation modeling.
 Comprehensive Visualization: Produces a rich set of static and interactive plots, including 3D trajectories and detailed network graphs.
 
 Data Sources
-scRNA-seq Data: The single-cell RNA sequencing data for zebrafish embryogenesis was obtained from the Gene Expression Omnibus (GEO) under accession number GSE112294 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112294).
+scRNA-seq Data: The single-cell RNA sequencing data for zebrafish embryogenesis was obtained from the Gene Expression Omnibus (GEO) under accession number GSE112294 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112294). Download: 
+GSM3067189 Zebrafish Embryos, 4hpf
+GSM3067190 Zebrafish Embryos, 6hpf
+GSM3067191 Zebrafish Embryos, 8hpf
+GSM3067192 Zebrafish Embryos, 10hpf
+GSM3067193 Zebrafish Embryos, 14hpf
+GSM3067194 Zebrafish Embryos, 18hpf
+GSM3067195 Zebrafish Embryos, 24hpf
+(From Supplementary files:)
+GSE112294_ClusterNames.csv.gz 
+GSE112294_RAW.tar
+In the code, from 4hpf to 24hpf are called: 
+   GSM3067189_04hpf.csv
+   GSM3067190_06hpf.csv
+   GSM3067191_08hpf.csv
+   GSM3067192_10hpf.csv
+   GSM3067193_14hpf.csv
+   GSM3067194_18hpf.csv
+   GSM3067195_24hpf.csv
 
-Transcription Factor List: The list of known zebrafish (Danio rerio) transcription factors was sourced from AnimalTFDB 4.0 (Danio_rerio_TF.txt (https://guolab.wchscu.cn/AnimalTFDB4/#/Download)).
+Transcription Factor List: The list of known zebrafish (Danio rerio) transcription factors was sourced from AnimalTFDB 4.0 (Danio_rerio_TF.txt (https://guolab.wchscu.cn/AnimalTFDB4/#/Download)). Download: The Zebrafish --> TF list
 
 System Requirements
 Python 3.8+
